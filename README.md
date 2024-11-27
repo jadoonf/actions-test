@@ -20,7 +20,6 @@ Sema4.ai Action Server makes your Python scripts compatible with e.g. OpenAI's [
   <source media="(prefers-color-scheme: dark)" srcset="./docs/include/sema4ai-flow-dark_1x.webp">
   <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="./docs/include/sema4ai-flow-light_1x.webp">
 </picture>
-
 ---
 
 <div id="quickstart"></div>

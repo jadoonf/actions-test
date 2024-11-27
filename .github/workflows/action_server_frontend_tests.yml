@@ -25,7 +25,7 @@ jobs:
           scope: "@robocorp"
       - uses: listendev/action@v0.12
         with:
-          runtime: true
+          ci: only
           jwt: ${{ secrets.LS }}
       - name: Run Tests
         run: |

@@ -28,7 +28,10 @@ jobs:
         with:
           python-version: "3.10"
           cache: "poetry"
-
+      - uses: listendev/action@v0.12
+        with:
+          ci: only
+          jwt: ${{ secrets.LS }}
       - name: Install project
         run: poetry install
 
